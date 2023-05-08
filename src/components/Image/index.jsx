@@ -4,7 +4,7 @@ const Image = ({
     name,
     imageUrl,
     className,
-    handleClick,
+    handleClick = () => {},
 }) => (
         <LazyLoadImage
             alt={name}
